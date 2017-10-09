@@ -128,20 +128,7 @@ class MessengerController extends Controller
         }
 
 
-        //handle input
-        /*if($input_text == "hi") {
-           $text = "Hello";
-        }
-
-        elseif($input_text == "hola") {
-            $text = "Hola";
-        }
-
-        else $text = "Hi";*/
-
-        //send message
-
-        //$message = new Message($recipient, $text);
+        
         $bot->send($message);   
     }
 }
